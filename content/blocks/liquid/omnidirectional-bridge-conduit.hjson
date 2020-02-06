@@ -3,6 +3,7 @@ size: 1
 update: true
 solid: true
 hasLiquids: true
+hasPower:false
 configurable: true
 
 requirements: [
