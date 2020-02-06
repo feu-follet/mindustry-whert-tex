@@ -9,3 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Omnidirectional versions of item and fluid bridges
 - Thermal centrifuge, larger, better version of separator.
+## [0.1.1] - 2020-02-06
+### Fixed
+- Bug with bridge conduit power consumption
+### Changed
+- Thermal centrifuge rebalance
