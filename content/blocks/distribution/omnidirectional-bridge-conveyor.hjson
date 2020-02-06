@@ -1,0 +1,19 @@
+// This block uses custom script to implement its mechanic - please have a look at one!
+size: 1
+update: true
+solid: true
+hasItems: true
+configurable: true
+
+requirements: [
+    copper/6
+    lead/6
+    silicon/2
+]
+
+range: 5
+speed: 70
+bufferCapacity: 14
+
+category: distribution
+research: bridge-conveyor

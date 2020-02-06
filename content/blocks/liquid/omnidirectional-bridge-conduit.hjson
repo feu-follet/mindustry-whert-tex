@@ -1,0 +1,19 @@
+// This block uses custom script to implement its mechanic - please have a look at one!
+size: 1
+update: true
+solid: true
+hasLiquids: true
+configurable: true
+
+requirements: [
+    graphite/6
+    metaglass/6
+    silicon/2
+]
+
+range: 5
+liquidCapacity: 16
+liquidPressure: 1
+
+category: liquid
+research: bridge-conduit
