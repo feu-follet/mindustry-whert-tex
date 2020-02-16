@@ -14,3 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bug with bridge conduit power consumption
 ### Changed
 - Thermal centrifuge rebalance
+
+## [0.2] - 2020-02-06
+### Added
+- Discharge and Jetstream, advanced versions of Arc and Wave, respectively
+- Compatability with build 104
+### Changed
+- Thermal centrifuge rebalance (again)

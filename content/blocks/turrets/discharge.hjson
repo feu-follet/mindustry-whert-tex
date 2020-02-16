@@ -1,0 +1,23 @@
+size: 3
+health: 1800
+solid: true
+
+requirements: [
+    copper/100
+    graphite/75
+    thorium/150
+    silicon/100
+]
+
+reload: 90
+shootCone: 40
+shootShake: 0.8
+powerUse: 6
+range: 180
+shootEffect: lightningShoot
+heatColor: ff0000
+recoil: 3
+shootSound: spark
+
+category: turret
+research: lancer

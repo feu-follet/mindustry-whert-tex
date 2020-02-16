@@ -1,0 +1,57 @@
+type: LiquidTurret
+size: 3
+health: 2250
+solid: true
+
+requirements: [
+    metaglass/75
+    thorium/125
+    titanium/200
+]
+
+ammo: {
+    water: {
+        "damage": 2
+        "liquid": "water"
+        "speed": 5
+        "type": "LiquidBulletType"
+        "knockback": 1
+    }
+    oil: {
+        "damage": 2
+        "knockback": 1
+        "liquid": "oil"
+        "speed": 5
+        "status": tarred
+        "type": "LiquidBulletType"
+    }
+    slag: {
+        "damage": 10
+        "drag": 0.03
+        "knockback": 1
+        "liquid": "slag"
+        "speed": 7
+        "status": burning
+        "type": "LiquidBulletType"
+    }
+    cryofluid: {
+        "damage": 2
+        "knockback": 1
+        "liquid": "cryofluid"
+        "speed": 5
+        "status": freezing
+        "type": "LiquidBulletType"
+    }
+}
+
+reload: 2
+shootCone: 10
+inaccuracy: 1
+range: 220
+shootEffect: shootLiquid
+recoil: 0
+shootSound: splash
+liquidCapacity: 20
+
+category: turret
+research: wave

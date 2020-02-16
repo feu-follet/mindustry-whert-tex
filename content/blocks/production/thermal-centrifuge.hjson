@@ -11,18 +11,18 @@ liquidCapacity: 60
 craftTime: 6.0
 
 requirements: [
-    lead/100
-    graphite/75
-    titanium/75
-    surge-alloy/20
-    phase-fabric/15
+    lead/300
+    graphite/275
+    titanium/275
+    surge-alloy/100
+    phase-fabric/30
 ]
 
 consumes: {
     power: 6.0
     liquid: {
         liquid: slag
-        amount: 0.05
+        amount: 0.333
     }
 }
 
