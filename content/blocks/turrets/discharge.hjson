@@ -3,10 +3,10 @@ health: 1800
 solid: true
 
 requirements: [
-    copper/100
+    copper/300
     graphite/75
     thorium/150
-    silicon/100
+    silicon/150
 ]
 
 reload: 90

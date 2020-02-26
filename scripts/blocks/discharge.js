@@ -1,6 +1,5 @@
 const discharge = new PowerTurret("discharge");
 
-
 discharge.shootType = extend(BasicBulletType, {
     draw(b) { },
 
