@@ -15,7 +15,7 @@ requirements: [
 ammo: {
     surge-alloy: {
         "type": "ArtilleryBulletType"
-        "hitEffect": "blastExplosion"
+        "hitEffect": "bigShockwave"
         "hitShake": 3
         "knockback": 0.8
         "speed": 6
@@ -23,7 +23,7 @@ ammo: {
         "bulletWidth": 21
         "bulletHeight": 21
         "collidesTiles": false
-        "splashDamageRadius": 32
+        "splashDamageRadius": 36
         "splashDamage": 600
         "backColor": "ffd2ae"  // missileYellowBack
         "frontColor": "e58956" // missileYellow
@@ -31,6 +31,7 @@ ammo: {
         "fragVelocityMax": 3
         "fragBullet": {
             "type": "FlakBulletType"
+            "hitEffect": "flakExplosionBig"
             "splashDamage": 75
             "lightining": 2
             "lightningLength": 12
@@ -40,12 +41,12 @@ ammo: {
 }
 
 ammoEjectBack: 5
-ammoPerShot: 20
+ammoPerShot: 30
 ammoUseEffect: shellEjectBig
 inaccuracy: 2
-range: 1600
+range: 1280
 recoil: 6
-reload: 450
+reload: 540
 restitution: 0.008
 cooldown: 0.01
 rotatespeed: 0.5

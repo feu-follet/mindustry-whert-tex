@@ -21,3 +21,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Compatability with build 104
 ### Changed
 - Thermal centrifuge rebalance (again)
+
+## [0.3] - 2020-02-26
+### Added
+- Vertex, the powerful (when used wisely) artillery turret.
+### Changed
+- Discharge rebalane
+
+## [0.4] - 2020-03-09
+### Added
+- Flash silicon smelter, advanced version of silicon smelter
+- Oil burner, efficient way to generate power from oil
+### Changed
+- Vertex rebalance
+

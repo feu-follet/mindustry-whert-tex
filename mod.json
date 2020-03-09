@@ -2,6 +2,6 @@ name: whert-tech
 displayName: WherTex
 author: Whert
 description: Mod adding some useful stuff that fits well in game.
-version: "0.3"
+version: "0.4"
 minGameVersion: "104"
 dependencies: [ ]
