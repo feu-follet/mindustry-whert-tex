@@ -1,0 +1,33 @@
+type: GenericSmelter
+
+size: 3
+solid: true
+hasItems: true
+hasPower: true
+itemCapacity: 20
+
+craftTime: 120.0
+craftEffect: smeltsmoke
+flameColor: ffef99
+
+requirements: [
+    copper/150,
+    lead/100,
+    silicon/25,
+    thorium/70
+]
+
+consumes: {
+    power: 1.5
+    items: {
+        items: [
+            pyratite/3
+            sand/10
+        ]
+    }
+}
+
+outputItem: silicon/8
+
+category: crafting
+research: silicon-smelter
