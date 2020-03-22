@@ -1,0 +1,29 @@
+size: 3
+solid: true
+hasItems: false
+hasLiquids: true
+hasPower: true
+
+itemCapacity: 0
+liquidCapacity: 20.0
+
+maxLiquidGenerate: 0.1
+powerProduction: 18.0
+
+requirements: [
+    copper/70,
+    metaglass/70,
+    plastanium/100,
+    silicon/65,
+    thorium/120,
+]
+
+consumes: {
+    liquid: {
+        liquid: oil
+        amount: 0.124
+     }
+}
+
+category: power
+research: turbine-generator
