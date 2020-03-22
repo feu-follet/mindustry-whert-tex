@@ -34,3 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Oil burner, an efficient way to produce power from oil
 ### Changed
 - Vertex rebalance
+
+## [0.4.1] - 2020-03-22
+### Fixed
+- Added flash silicon smelter sprite
+- Actually added oil burner
