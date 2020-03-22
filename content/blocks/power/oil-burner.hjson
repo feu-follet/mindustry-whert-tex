@@ -7,7 +7,7 @@ hasPower: true
 itemCapacity: 0
 liquidCapacity: 20.0
 
-maxLiquidGenerate: 0.1
+maxLiquidGenerate: 0.125
 powerProduction: 18.0
 
 requirements: [
